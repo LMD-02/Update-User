@@ -1,0 +1,20 @@
+.hide{
+    display: none;
+}
+label.error {
+    display: inline-block;
+    color:red;
+    top: -3rem;
+}
+@media (max-width: 48rem){
+    .component_content{
+        padding:0 !important;
+    }
+    .component_nav-bar{
+        padding:0 !important;
+    }
+    .container{
+        padding:0 !important;
+    }
+}
+

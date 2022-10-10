@@ -1,0 +1,15 @@
+@import "~jquery-toast-plugin";
+//
+//
+//@import "~global_resource/scss/base/base";
+
+
+
+@import "./components/nav-bar";
+@import "./components/content";
+@import "./components/base";
+
+
+.user-content{
+    margin: 2rem 1.5rem  5.5rem;
+}

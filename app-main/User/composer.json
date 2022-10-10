@@ -1,0 +1,25 @@
+{
+    "name": "workable/app-user",
+    "description": "keyword data",
+    "authors": [
+        {
+            "name": "Carousell",
+            "email": "carousell@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "psr-4": {
+            "AppMain\\User\\": "/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "minimum-stability": "dev"
+}
+

@@ -1,0 +1,24 @@
+#user-navbar {
+  display: flex;
+  flex-direction: column;
+}
+#user-navbar .navbar-content .navbar-item {
+  cursor: pointer;
+}
+#user-navbar .navbar-content .navbar-item .navbar-item-link {
+  transition: color 0.25s ease-out;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+#user-navbar .navbar-content .navbar-item .navbar-item-link span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+#user-navbar .navbar-content .navbar-item .navbar-item-link:hover {
+  color: #008f79;
+}
+.navbar-item #user-navbar .navbar-content.js-navbar-active .navbar-item-link {
+  border-left: 1px solid #008f79;
+  color: #008f79;
+  font-weight: bold;
+}

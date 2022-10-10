@@ -1,0 +1,32 @@
+{
+    "name": "workable/user",
+    "description": "keyword data",
+    "authors": [
+        {
+            "name": "Carousell",
+            "email": "carousell@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "psr-4": {
+            "Workable\\User\\": "/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workable\\User\\UserServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
+
